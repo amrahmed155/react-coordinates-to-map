@@ -4,6 +4,8 @@
     width: 40%;
     height: 100vh;
   }
+
+  
   html, body {
     min-height: 100%;
     }
@@ -29,7 +31,7 @@
       padding: 20px;
       border-radius: 6px;
       background: #fff;
-      box-shadow: 0 0 25px 0 #1c87c9; 
+      box-shadow: 0 0 25px 0 #1c1f21; 
       }
 
 
@@ -51,12 +53,12 @@
         background: transparent;
         }
         .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
-        color: #1c87c9;
+        color: #1c1f21;
         }
         .item input:hover, .item select:hover {
         border: 1px solid transparent;
-        box-shadow: 0 0 6px 0 #1c87c9;
-        color: #1c87c9;
+        box-shadow: 0 0 6px 0 #1c1f21;
+        color: #1c1f21;
         }
         .item {
         position: relative;
@@ -107,7 +109,7 @@
         border: 2px solid #ccc;
         }
         input[type=radio]:checked + label:before, label.radio:hover:before {
-        border: 2px solid #1c87c9;
+        border: 2px solid #1c1f21;
         }
         label.radio:after {
         content: "";
@@ -116,7 +118,7 @@
         left: 5px;
         width: 8px;
         height: 4px;
-        border: 3px solid #1c87c9;
+        border: 3px solid #1c1f21;
         border-top: none;
         border-right: none;
         transform: rotate(-45deg);
@@ -134,7 +136,7 @@
         padding: 10px;
         border: none;
         border-radius: 5px; 
-        background: #1c87c9;
+        background: #1c1f21;
         font-size: 16px;
         font-weight: 700;
         color: #fff;
@@ -162,3 +164,6 @@
         width: 100%;
         }
         }
+        .lat{float:  right;}
+        
+        .lon{float:  left;}

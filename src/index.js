@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Form from './Form';
+import './style/index.css';
+import Mapcomp from './components/Map';
+import Form from './components/Form';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 <div>
     <Form />
-    <App />
+    <Mapcomp />
 </div>
 , document.getElementById('root'));
 
