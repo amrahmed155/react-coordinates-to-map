@@ -1,9 +1,8 @@
 // npm install --save --save-exact react-scripts@3.4.0
 
-import React,{Component,useState}  from "react";
-import { Map, Marker, Popup, TileLayer , Polygon } from "react-leaflet";
+import React,{Component}  from "react";
+import { Map, TileLayer , Polygon } from "react-leaflet";
 import { Icon } from "leaflet";
-import * as parkData from "../data/skateboard-parks.json";
 import "../style/App.css";
 
 export const icon = new Icon({
